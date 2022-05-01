@@ -59,8 +59,20 @@ namespace unidad4windforms
             DateTime fecha = fechanacimiento.Value;
 
             string color = colorfavorito.SelectedItem.ToString();
+            try
+            {
+                
+            }
+            catch (NullReferenceException r)
+            {
 
+                MessageBox.Show("error no ha seleccionado un color favorito");
+            }
+            
+           
+               
 
+           
 
 
             MessageBox.Show("Nombre: " + nombre + ",  SEXO: " + sexo + sexoh + ",  ALTURA: " + altura + "  FECHA NACIMIENTO: " + fecha +
