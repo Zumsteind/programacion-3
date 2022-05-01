@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace unidad4windforms
-{
+{/// <summary>
+/// vamos agregar solo para cambiar en e repositorio
+/// </summary>
     static class Program
     {
         /// <summary>
